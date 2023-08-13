@@ -1,0 +1,154 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+body{
+    font-size: 1.2vw;
+    font-weight: 600px;
+}
+.main{
+    display: flex;
+    justify-content: center;
+}
+.container{
+    /* width: 60%; */
+    margin: 15vw auto;
+    padding: 2vw;
+}
+.container1{
+    width: 40%;
+    margin: 15vw auto;
+    padding: 2vw;
+}
+.input-form{
+    width: 90%;
+    position: relative;
+    margin: 20px auto;
+}
+.user , .text-name{
+    padding: 6px;
+}
+.face{
+    padding: 8px 0 8px 155px;
+    
+}
+.name , .pass {
+    width: 46%;
+    padding: 8px 0 8px 40px;
+}
+.btn-face,.btn-twit{
+    width: 100%;
+    padding: 8px 60px 8px 15px;
+}
+.btn-face{
+    background-color: rgb(47, 101, 226);
+    color: white;
+}
+.btn-twit{
+    margin-top: 0px;
+    background-color: lightblue;
+    color: white;
+}
+.face{
+    color: white;
+}
+.btn{
+    width: 100%;
+    outline: none;
+    padding: 8px 0 8px 40px;
+    background-color: rgb(101, 166, 245);
+    color: white;
+}
+.job{
+    width: 100%;
+    padding: 8px 0 8px 40px;
+    display: inline-block;
+    cursor: pointer;
+    border-radius: 5px;
+
+}
+.input-form span{
+    margin-left: 30px;
+}
+.input-name{
+    width: 100%;
+    padding: 8px 0 8px 40px;
+}
+/* .input-button{
+    width: 90%;
+    padding: 8px 0 8px 40px;
+} */
+.input-form i{
+    font-size: 15px;
+    position: absolute;
+}
+.input-name ,.pass,.name,.btn,.btn-face,.btn-twit{
+    border: 1px solid gray;
+    outline: none;
+    border-radius: 5px;
+}
+hr{
+    width: 100%;
+    margin-top: 20px;
+}
+.or{
+    width: 30px;
+    background-color: #fff;
+    margin: -15px auto 10px;
+}
+.left{
+    background-color: darkblue;
+}
+img{
+    height: 500px;
+}
+i{
+    color: gray;
+}
+p{
+    text-align: center;
+    margin-top: 8px;
+}
+@media (max-width:600px) {
+    .main{
+        flex-direction: column;
+        align-items: center;
+        justify-content: center;
+    }
+    .container{
+        align-items: center;
+        justify-content: center;
+    }
+    img{
+        height: 300px;
+    }
+    .container1{
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        width: 90%;
+    }
+    form{
+        align-items: center;
+        justify-content: center;
+    }
+    .name,.pass{
+        width: 45%;
+    }
+    .or{
+        
+        width: 15px;
+        background-color: #fff;
+        margin: -5px auto 10px;
+    }
+    /* .btn-face,.btn-twit{
+        width: 100%;
+        padding: 8px 60px 8px 15px;
+    } */
+    .face{
+    padding: 8px 0 8px 86px;
+    }
+    p{
+        font-size: 2.2vw;
+    }
+}
